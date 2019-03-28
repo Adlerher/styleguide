@@ -3,26 +3,51 @@
   padding: 0;
 }
 /* --- Grid css style  --- */
-.gridWrapper {
-  display: grid;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  grid-template-columns: auto auto;
-  grid-template-rows: 100% 100%;
-  grid-template-areas: 'asideNav main';
+.flexWrapper {
+  display: flex;
+  flex-direction: row;
 }
 /* --- Aside nav wrapper  --- */
 .asideWrapper {
-  grid-area: asideNav;
   height: 100%;
-  width: 20%;
+  width: 15%;
   position: fixed;
-  background-color: blue;
+  background-color: rgb(58, 58, 184);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* --- Aside NAV  --- */
+.navWrapper ul {
+  margin-left: 30px;
+  list-style: none;
+}
+.navWrapper ul li {
+  margin: 20px 5px;
+}
+.navWrapper ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.navWrapper ul li a:hover {
+  color: rgb(255, 186, 59);
+}
+/* --- Aside LOGO  --- */
+.asideWrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 0;
 }
 /* --- main wrapper  --- */
 .mainWrapper {
-  grid-area: main;
-  height: 900px;
-  width: 80%;
-  background-color: lightblue;
+  position: relative;
+  left: 15%;
+  height: auto;
+  width: 85%;
+  background-color: rgb(33, 65, 122);
 }
+/* --- First section / Landing section  --- */
