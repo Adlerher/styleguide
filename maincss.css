@@ -75,7 +75,7 @@ h2 {
 /* --- Section section / Farver  --- */
 .farveSection {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   background-color: white;
