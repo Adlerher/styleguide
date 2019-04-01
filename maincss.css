@@ -34,14 +34,38 @@ p {
   margin: 20px 5px;
 }
 .navWrapper ul li a {
+  display: block;
+  padding: 5px;
   text-decoration: none;
   font-size: 25px;
   color: #515f6d;
   cursor: pointer;
   transition: color 0.2s ease-in-out;
 }
+.navWrapper ul li a:after,
+.navWrapper ul li a:before {
+  transition: all 0.5s;
+}
 .navWrapper ul li a:hover {
-  color: #d8a55a;
+  color: #d8764e;
+}
+/* stroke */
+.navWrapper ul li a {
+  position: relative;
+}
+.navWrapper ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #d8764e;
+  height: 2px;
+}
+.navWrapper ul li a:hover:after {
+  width: 50%;
 }
 /* --- Aside LOGO  --- */
 .asideWrapper img {
@@ -66,11 +90,16 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #6696ac;
+  margin-bottom: 50px;
 }
 .landingSection h1,
 h2 {
   font-size: 50px;
   color: rgb(238, 238, 238);
+}
+.landingSection p {
+  font-size: 20px;
+  color: white;
 }
 /* --- Section section / Farver  --- */
 .farveSection {
@@ -79,6 +108,7 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: white;
+  margin-bottom: 50px;
 }
 .farveSection h1 {
   margin: 14px 16px;
@@ -113,10 +143,11 @@ h2 {
 /* --- Third section / LOGO  --- */
 .logoSection {
   width: 100%;
-  height: 70vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   background-color: white;
+  margin-bottom: 50px;
 }
 .logoSection h1 {
   font-size: 50px;
