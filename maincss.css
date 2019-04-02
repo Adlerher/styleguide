@@ -6,7 +6,8 @@
 }
 h1,
 a,
-h2 {
+h2,
+h3 {
   font-family: "Roboto Mono", monospace;
 }
 p {
@@ -174,7 +175,7 @@ h2 {
   color: #515f6d;
 }
 .knapperSection article {
-  width: 50%;
+  width: 45%;
   padding: 14px 16px;
 }
 .knapperSection article h2 {
@@ -182,10 +183,26 @@ h2 {
   margin: 10px 0;
   font-size: 30px;
 }
+.knapperSection article h3 {
+  color: #515f6d;
+}
+.knapperSection article hr {
+  width: 60%;
+  margin: 5px 0;
+}
 .knapperSection article p {
   color: #515f6d;
   font-size: 20px;
   margin: 10px 0;
+}
+.codeEmbed {
+  position: relative;
+  padding: 14px 16px;
+  border-left: 3px solid #d8764e;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+}
+.codeEmbed code {
+  font-size: 20px;
 }
 .standardBtn {
   border: 0;
