@@ -419,12 +419,33 @@ h2 {
 .iconerSection .iconTable {
   width: 50%;
   text-align: left;
-  font-size: 18px;
-  color: black;
+  font-size: 22px;
+  color: white;
+  background-color: #515f6d;
 }
 .iconTable tr th {
-  border: 1px solid gray;
+  border: 1px solid white;
   padding: 1em;
+  font-weight: 300;
+}
+
+/* ---  Navigation  --- */
+.navigationSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.navigationSection h1 {
+  margin: 14px 0;
+  font-size: 50px;
+  color: #515f6d;
+}
+.navigationSection h3 {
+  margin: 14px 0;
+  font-size: 30px;
+  color: #515f6d;
 }
 /* ---  Sprog  --- */
 .sprogSection {
