@@ -348,6 +348,36 @@ h2 {
   border-radius: 5px;
   border: 1px solid gray;
 }
+.inputSection input[name="textblå"] {
+  width: 300px;
+  background-color: #515f6d;
+  color: white;
+}
+.inputSection input[name="textblå"]::placeholder {
+  color: white;
+}
+.inputSection input[type="date"] {
+  width: 180px;
+  font-size: 16px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px 0;
+}
+.inputSection input[name="dateBlå"] {
+  background-color: #515f6d;
+  color: white;
+}
+.inputSection input[type="password"] {
+  width: 400px;
+  font-size: 16px;
+  margin: 5px 0px;
+  height: 50px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
 .inputSection input[type="checkbox"] {
   width: 50px;
   height: 50px;
@@ -358,16 +388,54 @@ h2 {
   padding: 1em;
   min-height: 20px;
 }
-/* --- Fifth section / Sprog  --- */
+/* ---  Iconer  --- */
+.iconerSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.iconerSection h1 {
+  margin: 14px 0;
+  font-size: 50px;
+  color: #515f6d;
+}
+.iconerSection h3 {
+  margin: 14px 0;
+  font-size: 20px;
+  color: #515f6d;
+  width: 60%;
+}
+.iconerSection p {
+  margin: 14px 0;
+  font-size: 18px;
+  color: black;
+}
+.iconerSection a {
+  font-size: 16px;
+  color: black;
+}
+.iconerSection .iconTable {
+  width: 50%;
+  text-align: left;
+  font-size: 18px;
+  color: black;
+}
+.iconTable tr th {
+  border: 1px solid gray;
+  padding: 1em;
+}
+/* ---  Sprog  --- */
 .sprogSection {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   background-color: white;
 }
 .sprogSection h1 {
-  margin: 14px 16px;
+  margin: 14px 0;
   font-size: 50px;
   color: #515f6d;
 }
@@ -398,7 +466,7 @@ h2 {
 }
 .sprog p {
   font-size: 20px;
-  margin: 14px 16px;
+  margin: 14px 0px;
 }
 /* --- Six section / Billeder  --- */
 .billederSection {
