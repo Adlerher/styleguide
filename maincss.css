@@ -311,21 +311,23 @@ h2 {
   margin: 14px 16px;
   font-size: 20px;
 }
-.typoSection article .download {
-  margin: 14px 16px;
-  border: 1px solid;
-  width: 700px;
-  height: 50px;
+/* femte section - input */
+.inputSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  cursor: pointer;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  transition: background-color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
 }
-.typoSection article a .download:hover {
-  background-color: #d8764e;
-  color: white;
+.inputSection h1 {
+  margin: 14px 16px;
+  font-size: 50px;
+  color: #515f6d;
+}
+
+.inputSection p {
+  margin: 14px 16px;
+  font-size: 20px;
 }
 /* --- Fifth section / Sprog  --- */
 .sprogSection {
