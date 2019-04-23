@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>House Of Code - Styleguide</title>
+    <title>House of Code - Styleguide</title>
     <link rel="stylesheet" href="maincss.css" />
     <link rel="icon" type="image.png" href="HoC_icon.png" />
     <link
@@ -18,7 +18,7 @@
   <body>
     <div class="flexWrapper">
       <aside class="asideWrapper">
-        <img src="logo.png" alt="" id="logo" />
+        <img src="HoC-logo.svg" alt="" id="logo" />
         <nav class="navWrapper">
           <ul>
             <li><a href="#farveSection">Farver</a></li>
@@ -215,8 +215,14 @@
         </section>
         <section class="logoSection" id="logoSection">
           <h1>Logo</h1>
-
-          <img src="logo.png" alt="" id="logo" />
+          <h3>Logo på hvid baggrund</h3>
+          <hr />
+          <img src="HoC-logo.svg" alt="" id="logo" />
+          <h3>Logo på blå baggrund</h3>
+          <hr />
+          <div class="logoHvid">
+            <img src="HoC_logo_white.svg" alt="" id="logo" />
+          </div>
         </section>
         <section class="knapperSection" id="knapperSection">
           <article>
@@ -225,13 +231,39 @@
             <hr />
             <p>Standard knappen bruges på de fleste knapper.</p>
             <button type="button" class="standardBtn">Button</button>
+            <h3>Standard knap på blå baggrund</h3>
+            <hr />
+            <button type="button" class="standardBtn blue">Button</button>
+
+            <h3>NAV links som ligner buttons</h3>
+            <hr />
+            <li class="navList"><a href="#">Navigation</a></li>
           </article>
           <article>
             <h2>Udviklingsværktøj</h2>
             <h3>Standard knap</h3>
             <hr />
             <div class="codeEmbed">
-              <code>&lt;button type="button" class="">Button&lt;/button></code>
+              <code
+                >&lt;button type="button"
+                class="standardBtn">Button&lt;/button></code
+              >
+            </div>
+            <h3>Standard knap på blå baggrund</h3>
+            <hr />
+            <div class="codeEmbed">
+              <code
+                >&lt;button type="button" class="standardBtn
+                blue">Button&lt;/button></code
+              >
+            </div>
+            <h3>NAV link som ligner en buttons</h3>
+            <hr />
+            <div class="codeEmbed">
+              <code
+                >&lt;li class="navList">&lt;a
+                href="#">Navigation&lt;/a>&lt;/li></code
+              >
             </div>
           </article>
         </section>
