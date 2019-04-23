@@ -303,12 +303,12 @@ h2 {
   width: 55%;
 }
 .typoSection h1 {
-  margin: 14px 16px;
+  margin: 14px 0;
   font-size: 50px;
   color: #515f6d;
 }
 .typoSection p {
-  margin: 14px 16px;
+  margin: 14px 0;
   font-size: 20px;
 }
 /* femte section - input */
@@ -320,14 +320,43 @@ h2 {
   background-color: white;
 }
 .inputSection h1 {
-  margin: 14px 16px;
+  margin: 14px 0;
   font-size: 50px;
   color: #515f6d;
 }
-
 .inputSection p {
-  margin: 14px 16px;
+  margin: 14px 0px;
   font-size: 20px;
+  width: 700px;
+}
+.inputSection h3 {
+  font-size: 25px;
+  margin: 14px 0px;
+  color: #515f6d;
+}
+.inputSection hr {
+  width: 600px;
+  margin-bottom: 10px;
+}
+.inputSection input[type="text"] {
+  width: 400px;
+  font-size: 16px;
+  margin: 5px 0px;
+  height: 50px;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.inputSection input[type="checkbox"] {
+  width: 50px;
+  height: 50px;
+}
+.inputSection textarea {
+  width: 600px;
+  resize: vertical;
+  padding: 1em;
+  min-height: 20px;
 }
 /* --- Fifth section / Sprog  --- */
 .sprogSection {
